@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: test\n"
-"POT-Creation-Date: 2014-01-14 14:25-0800\n"
-"PO-Revision-Date: 2014-01-14 14:26-0800\n"
+"POT-Creation-Date: 2014-01-14 15:05-0800\n"
+"PO-Revision-Date: 2014-01-14 15:06-0800\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: en_US\n"
@@ -15,6 +15,6 @@ msgstr ""
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-SearchPath-0: /Users/gabrielayuso/Sites/gettext-test\n"
 
-#: /Users/gabrielayuso/Sites/gettext-test/index.php:2
+#: /Users/gabrielayuso/Sites/gettext-test/index.php:14
 msgid "Hello World"
 msgstr "Hello World"
