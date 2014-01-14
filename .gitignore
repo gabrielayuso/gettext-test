@@ -26,4 +26,10 @@ nbproject
 phpinfo.php
 composer.*
 !composer.json
-#*.mo
+*.mo
+
+# Project specific ignores
+var/
+app/cache
+vendor
+.phalcon/
