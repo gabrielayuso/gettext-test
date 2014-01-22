@@ -1,10 +1,6 @@
 #!/usr/bin/php -q
 <?php
 
-require 'vendor/autoload.php';
-
-use TrekkSoft\Potomoco\Compiler as POCompiler;
-
 $localeDir = realpath( __DIR__ . '/locale' );
 
 function run()
@@ -31,7 +27,10 @@ function generateMOFileForLang( $lang )
 		return;
 	}
 
-	( new POCompiler() )->compile( $poFilePath );
+	$moFilePath = substr( $poFilePath, 0, strlen( $poFilePath ) - 3 ) . '.mo';
+
+	exec( "msgfmt -o $moFilePath -v $poFilePath" );
+
 	echo "Successfully compiled '$lang'.\n";
 }
 
